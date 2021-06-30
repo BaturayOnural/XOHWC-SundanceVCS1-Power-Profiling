@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="TE0820_zusys_SDSoC"
+              sdx:version="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+TE0820_zusys_SDSoC
+    </sdx:description>
+    <sdx:hardwarePlatforms>
+        <sdx:hardwarePlatform sdx:path="hw" sdx:name="TE0820_zusys_SDSoC.dsa"/>
+    </sdx:hardwarePlatforms>
+    <sdx:softwarePlatforms>
+        <sdx:softwarePlatform sdx:path="sw" sdx:name="TE0820_zusys_SDSoC.spfm"/>
+    </sdx:softwarePlatforms>
+</sdx:platform>

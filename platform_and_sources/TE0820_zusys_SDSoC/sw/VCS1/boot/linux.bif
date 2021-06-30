@@ -1,0 +1,10 @@
+/* linux */
+the_ROM_image:
+{
+	[fsbl_config] a53_x64
+        [bootloader]<VCS1/boot/zynqmp_fsbl.elf>
+        [pmufw_image]<VCS1/boot/zynqmp_pmufw.elf>
+	[destination_device=pl] <bitstream>
+	[destination_cpu=a53-0, exception_level=el-3, trustzone] <VCS1/boot/bl31.elf>
+	[destination_cpu=a53-0, exception_level=el-2] <VCS1/boot/u-boot.elf>
+}

@@ -57,7 +57,7 @@ type lynsyn_viewer
  
  The lynsyn_viewer application should be looking like this:
 
-![](https://github.com/BaturayOnural/XOHWC-SundanceVCS1-Power-Profiling/tree/main/pictures_visuals/lynsyn_viewer.png)
+![Lynsyn_viewer_app](/pictures_visuals/as_jpg/lynsyn_viewer.jpg)
 
 > Lynsyn_viewer app.
 
@@ -90,7 +90,7 @@ After booting the petalinux on the VCS, our generated .elf file is ready to be e
 
 Expected output should be looking like this:
 
-![](https://github.com/BaturayOnural/XOHWC-SundanceVCS1-Power-Profiling/tree/main/pictures_visuals/speed_up_mmult.png)
+![](/pictures_visuals/speed_up_mmult.png)
 
 >Speed up comparison of PL and PS.
 
@@ -106,15 +106,15 @@ Lynsyn is now sampling the power consumption, you may run your application in yo
 
 After lynsyn sampling has finished the output should be looking like this:
 
-![](https://github.com/BaturayOnural/XOHWC-SundanceVCS1-Power-Profiling/tree/main/pictures_visuals/lynsyn_sensor1_power.png)
+![](/pictures_visuals/lynsyn_sensor1_power.png)
 
 >Sensor1 Power.
 
-![](https://github.com/BaturayOnural/XOHWC-SundanceVCS1-Power-Profiling/tree/main/pictures_visuals/lynsyn_sensor1_voltage.png)
+![](/pictures_visuals/lynsyn_sensor1_voltage.png)
 
 >Sensor1 Voltage.
 
-![](https://github.com/BaturayOnural/XOHWC-SundanceVCS1-Power-Profiling/tree/main/pictures_visuals/lynsyn_sensor1_current.png)
+![](/pictures_visuals/lynsyn_sensor1_current.png)
 
 >Sensor1 Current.
 
@@ -122,7 +122,7 @@ A video demonstration of power consumption sampling is available in our Youtube 
 
 Note that sensor1 is directly connected to a rail which is feeding the PS and the PL:
 
-![](https://github.com/BaturayOnural/XOHWC-SundanceVCS1-Power-Profiling/tree/main/pictures_visuals/power_dist.png)
+![](/pictures_visuals/power_dist.png)
 
 >Sensor1 corresponds to VIN in the schematics.
 
@@ -131,9 +131,9 @@ Therefore our application is consuming around ~2.5 W power which is not a bad po
 Edge devices are popular for their low-power and high throughput capabilities, therefore understanding where our solution fits in the current ecosystem is important. Everyday the applications are getting bigger in data-wise and therefore consuming more power due to requirement of larger computations, data movements etc. 
 
 
-![](https://github.com/BaturayOnural/XOHWC-SundanceVCS1-Power-Profiling/tree/main/pictures_visuals/power-usage-environment.png)
+![](/pictures_visuals/power-usage-environment.png)
 
->Sensor1 corresponds to VIN in the schematics.
+>Power usage examples.
 
 Perhaps tracking power usage is much more important these days to enable more power efficient designs in the near future! We hope that this study expresses its motivatitions well and is understandable for everybody. Do not hesitate to reach us if you have any questions or ideas.
 

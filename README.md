@@ -3,11 +3,19 @@
 **Team Number:** xohw21-149 <br>
 **Supervisor:** Pedro Miguel Baptista Machado <br>
 
-**Table of Contents** <br>
+Table of Contents
+=================
 
-[TOCM] <br>
-
-[TOC] <br>
+* [Power Profiling custom application on VCS-1 <br>](#power-profiling-custom-application-on-vcs-1-)
+* [Introduction](#introduction)
+* [Requirements](#requirements)
+   * [HW Requirements](#hw-requirements)
+   * [SW Requirements](#sw-requirements)
+* [Installation &amp; Building](#installation--building)
+   * [Lynsyn Installation](#lynsyn-installation)
+   * [Create &amp; Build SDx Project](#create--build-sdx-project)
+* [Measure the power consumption of the PL + PS](#measure-the-power-consumption-of-the-pl--ps)
+* [Power usage of similar edge devices](#power-usage-of-similar-edge-devices)
 
 # Introduction
 This repository includes an end-to-end demonstration on how to power profile a custom application on VCS-1 using Lynsyn power profiler. Our example runs on a petalinux operating system running on the ARM processor of the VCS-1. During our power profiling session,  a matrix multiplication application will be running on the both PS and the PL side. The difference of performance  will be given in terms of clock cycles. Finally we will measure the total power usage of PS and PL and compare it to the power consumption of other relevant edge devices.

@@ -11,15 +11,15 @@
 
 # Introduction
 This repository includes an end-to-end demonstration on how to power profile a custom application on VCS-1 using Lynsyn power profiler. Our example runs on a petalinux operating system running on the ARM processor of the VCS-1. During our power profiling session,  a matrix multiplication application will be running on the both PS and the PL side. The difference of performance  will be given in terms of clock cycles. Finally we will measure the total power usage of PS and PL and compare it to the power consumption of other relevant edge devices.
-#Requirements
+# Requirements
 This repository has several hardware and software requirements. The hardware device and software tools must be installed in order to work with the project properly. The tools and devices are listed below. Make sure SDx and Petalinux versions are matching.
-##HW Requirements
+## HW Requirements
 Sundance VCS-1
 Lynsyn Lite
-##SW Requirements
+## SW Requirements
 Xilinx SDx 2018.2(or newer)
 Petalinux 2018.2(or newer)
-#Installation & Building
+# Installation & Building
 In order to work with the project, the Lynsyn device should be properly installed. After configuring the installation of the Lynsyn, you can move building the SDx project.
 ## Lynsyn Installation
 The Lynsyn power measurement units perform power profiling of applications running on ARM Cortex A based systems. Although designed for ARM systems, it can be used as a generic power profiling tool.
@@ -119,7 +119,7 @@ Note that sensor1 is directly connected to a rail which is feeding the PS and th
 >Sensor1 corresponds to VIN in the schematics.
 
 Therefore our application is consuming around ~2.5 W power which is not a bad power number at all!
-#Power usage of similar edge devices
+# Power usage of similar edge devices
 Edge devices are popular for their low-power and high throughput capabilities, therefore understanding where our solution fits in the current ecosystem is important. Everyday the applications are getting bigger in data-wise and therefore consuming more power due to requirement of larger computations, data movements etc. 
 
 

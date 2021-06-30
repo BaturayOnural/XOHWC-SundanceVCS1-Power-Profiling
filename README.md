@@ -1,15 +1,15 @@
-#Power Profiling custom application on VCS-1 
-**Team Members:** Ivica Matic, Erhan Baturay Onural
-**Team Number:** xohw21-149
-**Supervisor:** Pedro Miguel Baptista Machado
+# Power Profiling custom application on VCS-1 <br>
+**Team Members:** Ivica Matic, Erhan Baturay Onural <br>
+**Team Number:** xohw21-149 <br>
+**Supervisor:** Pedro Miguel Baptista Machado <br>
 
-**Table of Contents**
+**Table of Contents** <br>
 
-[TOCM]
+[TOCM] <br>
 
-[TOC]
+[TOC] <br>
 
-#Introduction
+# Introduction
 This repository includes an end-to-end demonstration on how to power profile a custom application on VCS-1 using Lynsyn power profiler. Our example runs on a petalinux operating system running on the ARM processor of the VCS-1. During our power profiling session,  a matrix multiplication application will be running on the both PS and the PL side. The difference of performance  will be given in terms of clock cycles. Finally we will measure the total power usage of PS and PL and compare it to the power consumption of other relevant edge devices.
 #Requirements
 This repository has several hardware and software requirements. The hardware device and software tools must be installed in order to work with the project properly. The tools and devices are listed below. Make sure SDx and Petalinux versions are matching.
@@ -21,7 +21,7 @@ Xilinx SDx 2018.2(or newer)
 Petalinux 2018.2(or newer)
 #Installation & Building
 In order to work with the project, the Lynsyn device should be properly installed. After configuring the installation of the Lynsyn, you can move building the SDx project.
-##Lynsyn Installation
+## Lynsyn Installation
 The Lynsyn power measurement units perform power profiling of applications running on ARM Cortex A based systems. Although designed for ARM systems, it can be used as a generic power profiling tool.
 
 1. Navigate to the lynsyn-host-software folder
@@ -53,7 +53,7 @@ type lynsyn_viewer
 
 > Lynsyn_viewer app.
 
-##Create & Build SDx Project
+## Create & Build SDx Project
 Creating SDx project is  relatively straightforward with using custom platform. After defining custom platform and including source files the project should be ready to be built.
 
 1. Open Xilinx SDx
@@ -86,7 +86,7 @@ Expected output should be looking like this:
 
 >Speed up comparison of PL and PS.
 
-#Measure the power consumption of the PL + PS
+# Measure the power consumption of the PL + PS
 In order to measure the power consumption, we need to run the lynsyn host application in our host PC. Sampling needs to be enabled while the application is running on the board. Simplest method would be running the lynsyn_viewer and to start sampling for a period of time. Make sure that you have plugged your Lynsyn device to your host computer before sampling.
 
 1. Open lynsyn_viewer

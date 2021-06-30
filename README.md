@@ -106,7 +106,7 @@ Lynsyn is now sampling the power consumption, you may run your application in yo
 
 After lynsyn sampling has finished the output should be looking like this:
 
-![](/pictures_visuals/lynsyn_sensor1_power.png)
+![](/pictures_visuals/as_jpg/lynsyn_sensor1_power.jpg)
 
 >Sensor1 Power.
 
